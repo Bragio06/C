@@ -111,7 +111,7 @@ void desenhaforca() {
 void escolhepalavra() {
     FILE* f;
 
-    f = fopen("palavras.txt", "r");
+    f = fopen("C:\\Users\\T-GAMER\\OneDrive\\Documentos\\trabalho\\C\\forca\\palavras.txt", "r");
     if(f == 0) {
         printf("Banco de dados de palavras não disponível\n\n");
         exit(1);
